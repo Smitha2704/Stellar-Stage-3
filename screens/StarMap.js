@@ -28,15 +28,9 @@ export default class StarMapScreen extends Component {
                             })
                         }}
                     />
+//Create Textinput for Latitude
                     <TextInput
-                        style={styles.inputStyle}
-                        placeholder="Enter your latitude"
-                        placeholderTextColor="white"
-                        onChangeText={(text) => {
-                            this.setState({
-                                latitude: text
-                            })
-                        }}
+                    
                     />
                 </View>
                 <WebView
